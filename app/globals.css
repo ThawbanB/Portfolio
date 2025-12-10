@@ -1,8 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
 }
 
 @theme inline {
