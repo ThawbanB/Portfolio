@@ -46,7 +46,7 @@ const projects = [
     category: "dev",
     description: "Développement d'une plateforme métier dédiée à la planification et au suivi en temps réel des prestations de maintenance locative.",
     image: "/images/airbyloc.png",
-    tags: ["Laravel", "Tailwind", "SaaS"],
+    tags: ["Laravel", "Tailwind", "AWS S3"],
     link: "https://www.airbyloc.fr/",
     github: "#",
   },
