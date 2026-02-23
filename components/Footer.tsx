@@ -9,9 +9,8 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: <Github size={20} />, href: "https://github.com/ThawbanB", label: "GitHub" },
-    { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
-    { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
-    { icon: <Mail size={20} />, href: "mailto:ton-email@exemple.com", label: "Email" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/thawban-boujja/", label: "LinkedIn" },
+    { icon: <Mail size={20} />, href: "mailto:thawbanjabss@outlook.fr", label: "Email" },
   ];
 
   return (
@@ -51,8 +50,6 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-8 text-sm font-bold uppercase tracking-widest text-slate-400">
-            <a href="#projects" className="hover:text-blue-600 transition-colors">Projets</a>
-            <a href="#skills" className="hover:text-blue-600 transition-colors">Stack</a>
             <button 
               onClick={scrollToTop}
               className="flex items-center gap-2 group text-slate-900 dark:text-white"
